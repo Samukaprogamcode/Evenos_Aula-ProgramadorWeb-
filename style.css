@@ -1,0 +1,80 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
+
+body header {
+    background-color: blanchedalmond;
+    text-align: center;
+    box-shadow: 1px 5px 6px 2px;
+    padding-bottom: 10px;
+}
+
+body header h1 {
+    font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body header h1 span {
+    font-weight: bolder;
+}
+
+body header p {
+    font-weight: 580;
+    font-size: 17px;
+}
+
+body header p span {
+    background-color: rgb(255, 204, 0);
+    color: rgb(35, 35, 35);
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#trocaCor,
+#mouseDown,
+#mouseUp,
+#sobreTexto,
+#onClick,
+#onDblclick {
+    margin: auto;
+    height: 50px;
+    width: 380px;
+    background-color: white;
+    border: solid 4px black;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-bottom: 16px;
+}
+
+#trocaCor:hover,
+#mouseDown:hover,
+#mouseUp:hover,
+#sobreTexto:hover,
+#onClick:hover,
+#onDblclick:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.container-footer {
+    width: 100%;
+    background-color: blanchedalmond;
+    border-top: 5px solid black;
+    text-align: center;
+    padding: 10px 0;
+}

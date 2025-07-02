@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula-Eventos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+</head>
+
+<body>
+    <div class="main-content">
+        <header>
+            <h1>AULA - <span>EVENTOS</span></h1>
+            <p>Nessa aula de hoje, estou aprendendo sobre a manipulação de eventos em <span>JavaScript!</span></p>
+        </header>
+
+        <div class="corpopagina1">
+            <br><br>
+            <div class="container">
+
+                <div id="trocaCor" onmouseout="viraBege()" onmouseover="viraAzul()">
+                    <h2>Quando o mouse estiver sobre, <br>ele vai: <span>Mudar de cor!</span></h2>
+                </div>
+                <br>
+                <div id="sobreTexto" onmousemove="adicionaTexto()">
+                    <h2 id="texto">Quando o mouse estiver sobre,<br> ele vai: <span>Acrescentar mais textos!</span></h2>
+                </div>
+                <br>
+                <div id="onClick" onclick="BotaoOnclick()">
+                    <h2>Quando o mouse clicar sobre,<br> ele vai:<span> Mudar a cor do fundo!</span></h2>
+                </div>
+                <br>
+                <div id="onDblclick" ondblclick="Botaoondblclick()">
+                    <h2>Quando o mouse clicar sobre,<br> ele vai:<span> Abrir o prompt!</span></h2>
+                </div>
+                <br>
+                <div id="mouseDown" onmousedown="mouseDown()">
+                    <h2>Quando o mouse Pressionar,<br> ele vai:<span> Abrir o Alert!</span></h2>
+                </div>
+                <br>
+                <div id="mouseUp" onmouseup="mouseUp()">
+                    <h2>Quando o mouse despressionar<br> ele vai:<span> Abrir Alert!</span></h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-footer">
+        <div>
+            <p>Meus Contatos:</p>
+            <br />
+            <a href="https://github.com/Samukaprogamcode" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="40" height="40" />
+            </a>
+            <a href="https://www.linkedin.com/in/samuel-fernandes-761aa9334/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png"
+                    alt="linkedin" width="40" height="40" />
+            </a>
+        </div>
+    </footer>
+
+    <script src="system.js"></script>
+</body>
+
+</html>
